@@ -1,10 +1,15 @@
 # ros_external
 
 # run
-run ros source script with the directory to your ros workspace
+Run ros source script with the directory to your ros workspace
 ```
 . ./source_ros [PATH_TO_ROS_WS]
 ```
+Run get files script to get msg and srv files from ros workspace
+```
+python getFiles.py
+```
+This will get the msgs and srvs from the packages used in the workspace and copy them to srvs and msgs folders
 
 # useful commands
 find msgs used in ros environment:
